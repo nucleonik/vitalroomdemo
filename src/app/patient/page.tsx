@@ -9,7 +9,14 @@ const page = () => {
     <Flex maxW="100vw">
       <SideBarLeft />
 
-      <Flex flexDir="column" bg="#F5F6FA" flex="1" pl="83px" pt="20px">
+      <Flex
+        ml="220px"
+        flexDir="column"
+        bg="#F5F6FA"
+        flex="1"
+        pl="83px"
+        pt="20px"
+      >
         <Flex>
           <Text fontSize={fontsmallsize.fontSize}>Home</Text>
           <Img src="Breadcrumbseparator.svg" />

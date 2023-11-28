@@ -22,7 +22,7 @@ export default function Home() {
         <Flex flexDir="column" bg={background.bg} flex="1">
           <Flex w="100%" pl="32px" pt="38px" bg={background.bg} flexDir="row">
             {' '}
-            <Flex flexDir="column">
+            <Flex flexDir="column" ml="260px">
               <Flex flexDir="row">
                 <LogonUser />
                 <Flex ml="32px">
@@ -45,7 +45,8 @@ export default function Home() {
             </Flex>
           </Flex>
 
-          <Flex ml="30px" flexWrap="wrap">
+          <Flex 
+           flexWrap="wrap" flex="1" maxW="100vw" ml="294px">
             <Flex mt="30px" mr="30px">
               {' '}
               <PatientCard />

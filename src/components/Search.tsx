@@ -5,7 +5,7 @@ import CustomButton from './buttons/CustomButton';
 type SearchProps = FlexProps & {
   label?: string;
   cat?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const Search: FC<SearchProps> = ({ label, cat, children, ...props }) => {
